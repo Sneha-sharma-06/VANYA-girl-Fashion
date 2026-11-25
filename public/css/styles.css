@@ -28,7 +28,7 @@ img { max-width: 100%; display: block; }
 a { color: inherit; text-decoration: none; }
 button { font-family: inherit; cursor: pointer; border: none; background: none; }
 input, select, textarea { font-family: inherit; font-size: 1rem; }
-.container { width: 100%; max-width: none; margin: 0; padding: 0 clamp(10px, 1.5vw, 18px); }
+.container { width: 100%; max-width: none; margin: 0; padding: 0 clamp(28px, 4vw, 56px); }
 
 /* ---------- Top strip ---------- */
 .topbar {
@@ -131,7 +131,7 @@ input, select, textarea { font-family: inherit; font-size: 1rem; }
 }
 .hero-inner {
   display: grid; grid-template-columns: 1.05fr .95fr; align-items: center;
-  gap: 2rem; padding: 4.2rem 0;
+  gap: 2rem; padding-block: 4.2rem;
 }
 .hero-kicker {
   display: inline-block; background: #fff; color: var(--primary);
@@ -160,7 +160,7 @@ input, select, textarea { font-family: inherit; font-size: 1rem; }
 .hero-price-chip span { font-size: .72rem; color: var(--muted); display: block; }
 
 /* ---------- Sections ---------- */
-.section { padding: 4rem 0; }
+.section { padding-block: 4rem; }
 .section-soft { background: var(--bg-soft); }
 .section-head { text-align: center; margin-bottom: 2.4rem; }
 .section-head .eyebrow {
@@ -264,7 +264,7 @@ input, select, textarea { font-family: inherit; font-size: 1rem; }
 /* ---------- Footer ---------- */
 .footer { background: #17141a; color: #cfc6cb; margin-top: 3rem; }
 .footer-grid {
-  display: grid; grid-template-columns: 1.5fr 1fr 1fr 1.4fr; gap: 2rem; padding: 3.4rem 0 2.2rem;
+  display: grid; grid-template-columns: 1.5fr 1fr 1fr 1.4fr; gap: 2rem; padding-block: 3.4rem 2.2rem;
 }
 .footer .brand { color: #fff; font-size: 1.4rem; }
 .footer p { font-size: .88rem; margin-top: .8rem; color: #9d9299; }
@@ -285,8 +285,7 @@ input, select, textarea { font-family: inherit; font-size: 1rem; }
 }
 .socials a:hover { background: var(--primary); color: #fff; transform: translateY(-3px); }
 .footer-bottom {
-  border-top: 1px solid #2c2730; padding: 1.1rem 0; font-size: .8rem; color: #8d838b;
-  display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap;
+  border-top: 1px solid #2c2730; padding-block: 1.1rem; font-size: .8rem; color: #8d838b;
 }
 .pay-icons { display: flex; gap: .5rem; }
 .pay-icons span {
@@ -299,7 +298,7 @@ input, select, textarea { font-family: inherit; font-size: 1rem; }
 .breadcrumb { font-size: .82rem; color: var(--muted); margin-bottom: .4rem; }
 .breadcrumb a:hover { color: var(--primary); }
 .page-head h1 { font-size: clamp(1.5rem, 3vw, 2.1rem); font-weight: 800; }
-.shop-layout { display: grid; grid-template-columns: 250px 1fr; gap: 1.8rem; padding: 2.2rem 0 3rem; }
+.shop-layout { display: grid; grid-template-columns: 250px 1fr; gap: 1.8rem; padding-block: 2.2rem 3rem; }
 .filters { display: grid; gap: 1.4rem; align-content: start; }
 .filter-box { border: 1px solid var(--line); border-radius: var(--radius); padding: 1.1rem; background: #fff; }
 .filter-box h4 {
@@ -394,7 +393,7 @@ input, select, textarea { font-family: inherit; font-size: 1rem; }
 .accordion details p, .accordion details li { font-size: .88rem; color: var(--muted); margin-top: .6rem; }
 
 /* ---------- Cart ---------- */
-.cart-layout { display: grid; grid-template-columns: 1fr 360px; gap: 1.8rem; padding: 2.2rem 0 3rem; align-items: start; }
+.cart-layout { display: grid; grid-template-columns: 1fr 360px; gap: 1.8rem; padding-block: 2.2rem 3rem; align-items: start; }
 .cart-items { display: grid; gap: 1rem; }
 .cart-item {
   display: grid; grid-template-columns: 96px 1fr auto; gap: 1.1rem;
@@ -425,7 +424,7 @@ input, select, textarea { font-family: inherit; font-size: 1rem; }
 .free-ship-note { font-size: .8rem; color: var(--success); background: #eaf7f0; padding: .6rem .8rem; border-radius: 9px; margin-top: .7rem; text-align: center; }
 
 /* ---------- Checkout ---------- */
-.checkout-layout { display: grid; grid-template-columns: 1fr 380px; gap: 1.8rem; padding: 2.2rem 0 3rem; align-items: start; }
+.checkout-layout { display: grid; grid-template-columns: 1fr 380px; gap: 1.8rem; padding-block: 2.2rem 3rem; align-items: start; }
 .co-card { background: #fff; border: 1px solid var(--line); border-radius: var(--radius); padding: 1.5rem; margin-bottom: 1.3rem; }
 .co-card h3 { font-size: 1.05rem; margin-bottom: 1.1rem; display: flex; align-items: center; gap: .6rem; }
 .co-card h3 .step {
@@ -463,7 +462,7 @@ input, select, textarea { font-family: inherit; font-size: 1rem; }
 .oi .p { margin-left: auto; font-size: .88rem; font-weight: 700; }
 
 /* ---------- Order success ---------- */
-.success-wrap { max-width: 680px; margin: 0 auto; padding: 3rem 0 4rem; text-align: center; }
+.success-wrap { max-width: 680px; margin: 0 auto; padding-block: 3rem 4rem; text-align: center; }
 .success-ring {
   width: 88px; height: 88px; margin: 0 auto 1.3rem; border-radius: 50%;
   background: #eaf7f0; display: grid; place-items: center; font-size: 2.4rem;
@@ -493,7 +492,7 @@ input, select, textarea { font-family: inherit; font-size: 1rem; }
 .value-card .ico { font-size: 2rem; }
 .value-card h4 { margin: .6rem 0 .35rem; font-size: 1rem; }
 .value-card p { font-size: .85rem; color: var(--muted); }
-.contact-layout { display: grid; grid-template-columns: 1fr 1.3fr; gap: 1.8rem; padding: 2.2rem 0 3rem; }
+.contact-layout { display: grid; grid-template-columns: 1fr 1.3fr; gap: 1.8rem; padding-block: 2.2rem 3rem; }
 .contact-info { display: grid; gap: 1rem; align-content: start; }
 .info-card {
   background: #fff; border: 1px solid var(--line); border-radius: var(--radius);
@@ -526,7 +525,7 @@ input, select, textarea { font-family: inherit; font-size: 1rem; }
 
 /* ---------- Responsive ---------- */
 @media (max-width: 1024px) {
-  .hero-inner { grid-template-columns: 1fr; padding: 3rem 0; }
+  .hero-inner { grid-template-columns: 1fr; padding-block: 3rem; }
   .hero-art { max-width: 520px; }
   .shop-layout { grid-template-columns: 1fr; }
   .filters { display: none; }
@@ -549,7 +548,7 @@ input, select, textarea { font-family: inherit; font-size: 1rem; }
   .brand span { display: none; }
   .hero-stats { gap: 1.2rem; }
   .hero-price-chip { left: 6px; }
-  .section { padding: 2.8rem 0; }
+  .section { padding-block: 2.8rem; }
   .product-grid { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: .9rem; }
   .card-cta { flex-direction: column; }
   .cart-item { grid-template-columns: 76px 1fr; }

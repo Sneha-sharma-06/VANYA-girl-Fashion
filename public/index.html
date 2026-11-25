@@ -228,7 +228,8 @@
   <script src="/js/app.js"></script>
   <script>
     fetch('/api/products?sort=rating').then(r => r.json()).then(products => {
-      $('#featuredGrid').innerHTML = products.slice(0, 8).map(productCard).join('');
+      const featured = products.filter(p => !/denim/i.test(p.name)).slice(0, 15);
+      $('#featuredGrid').innerHTML = featured.map(productCard).join('');
     }).catch(() => {
       $('#featuredGrid').innerHTML = '<div class="empty-state"><div class="ico">😕</div>Could not load products.</div>';
     });
