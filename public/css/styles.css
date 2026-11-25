@@ -142,7 +142,7 @@ input, select, textarea { font-family: inherit; font-size: 1rem; }
 .hero h1 em { font-style: normal; color: var(--primary); }
 .hero p { margin: 1.1rem 0 1.7rem; color: var(--muted); font-size: 1.05rem; max-width: 480px; }
 .hero-cta { display: flex; gap: .9rem; flex-wrap: wrap; }
-.hero-stats { display: flex; gap: 2rem; margin-top: 2.3rem; }
+.hero-stats { display: flex; flex-wrap: wrap; gap: 2rem; margin-top: 2.3rem; }
 .hero-stats b { display: block; font-size: 1.45rem; color: var(--primary); }
 .hero-stats span { font-size: .8rem; color: var(--muted); }
 .hero-art {
@@ -286,6 +286,7 @@ input, select, textarea { font-family: inherit; font-size: 1rem; }
 .socials a:hover { background: var(--primary); color: #fff; transform: translateY(-3px); }
 .footer-bottom {
   border-top: 1px solid #2c2730; padding-block: 1.1rem; font-size: .8rem; color: #8d838b;
+  display: flex; flex-wrap: wrap; gap: .8rem; align-items: center; justify-content: space-between;
 }
 .pay-icons { display: flex; gap: .5rem; }
 .pay-icons span {
@@ -524,12 +525,17 @@ input, select, textarea { font-family: inherit; font-size: 1rem; }
 @keyframes spin { to { transform: rotate(360deg); } }
 
 /* ---------- Responsive ---------- */
+/* Tablet / small laptop */
 @media (max-width: 1024px) {
   .hero-inner { grid-template-columns: 1fr; padding-block: 3rem; }
-  .hero-art { max-width: 520px; }
+  .hero-art { max-width: 520px; margin-inline: auto; }
   .shop-layout { grid-template-columns: 1fr; }
   .filters { display: none; }
-  .filters.open { display: grid; }
+  .filters.open {
+    display: grid; gap: 1rem;
+    background: #fff; border: 1px solid var(--line); border-radius: var(--radius);
+    padding: 1.1rem; box-shadow: var(--shadow);
+  }
   .mobile-filter-btn { display: inline-flex; }
   .pdp { grid-template-columns: 1fr; gap: 1.6rem; }
   .pdp-gallery { position: static; }
@@ -539,24 +545,121 @@ input, select, textarea { font-family: inherit; font-size: 1rem; }
   .promo p { margin-inline: auto; }
   .footer-grid { grid-template-columns: 1fr 1fr; }
   .contact-layout { grid-template-columns: 1fr; }
+  .nav-links a, .nav-links .nav-drop-btn { padding: .45rem .55rem; font-size: .85rem; }
+  .nav-inner { gap: .8rem; }
+  .container { padding: 0 clamp(18px, 3vw, 40px); }
 }
+
+/* Tablet portrait & large phones */
+@media (max-width: 900px) {
+  .nav-links > li:nth-child(4),
+  .nav-links > li:nth-child(5) { display: none; }
+}
+
+/* Phones */
 @media (max-width: 768px) {
   .nav-links { display: none; }
   .hamburger { display: grid; }
   .nav-inner { height: 62px; gap: .5rem; }
-  .brand { font-size: 1.3rem; }
+  .brand { font-size: 1.3rem; letter-spacing: .12em; }
   .brand span { display: none; }
-  .hero-stats { gap: 1.2rem; }
-  .hero-price-chip { left: 6px; }
+  .hero-stats { gap: 1.2rem 1.6rem; }
+  .hero-price-chip { left: 6px; bottom: 6%; padding: .55rem .8rem; }
   .section { padding-block: 2.8rem; }
-  .product-grid { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: .9rem; }
+  .section-head { margin-bottom: 1.6rem; }
+  .product-grid { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: .9rem; }
   .card-cta { flex-direction: column; }
-  .cart-item { grid-template-columns: 76px 1fr; }
+  .cart-item { grid-template-columns: 76px 1fr; gap: .8rem; }
   .cart-item img { width: 76px; height: 92px; }
   .ci-right { grid-column: 1 / -1; flex-direction: row; justify-content: space-between; width: 100%; display: flex; align-items: center; }
   .form-grid { grid-template-columns: 1fr; }
-  .footer-grid { grid-template-columns: 1fr; gap: 1.6rem; }
+  .footer-grid { grid-template-columns: 1fr 1fr; gap: 1.6rem; padding-block: 2.4rem 1.6rem; }
   .promo { padding: 2rem 1.3rem; }
+  .promo-side .big { font-size: 2.6rem; }
   .pdp-actions .btn { min-width: 100%; }
-  .topbar { font-size: .7rem; }
+  .pdp-price .price { font-size: 1.6rem; }
+  .topbar { font-size: .7rem; padding: .5rem .6rem; line-height: 1.4; }
+  .cat-grid { grid-template-columns: repeat(2, 1fr); gap: .8rem; }
+  .cat-card { min-height: 140px; padding: 1.2rem .8rem; }
+  .cat-card .emoji { font-size: 1.6rem; top: .7rem; right: .7rem; }
+  .cat-card h3 { font-size: .95rem; }
+  .trust { grid-template-columns: 1fr; }
+  .hero h1 { font-size: clamp(1.75rem, 7vw, 2.4rem); }
+  .hero p { font-size: .95rem; }
+  .hero-cta .btn { padding: .75rem 1.2rem; font-size: .88rem; }
+  .hero-art { gap: .7rem; }
+  .hero-art img:nth-child(2) { margin-top: 1.2rem; }
+  .toolbar { flex-direction: column; align-items: stretch; }
+  .toolbar select { width: 100%; }
+  .toolbar .mobile-filter-btn { width: 100%; justify-content: center; }
+  .co-card, .contact-form, .order-box { padding: 1.1rem; }
+  .coupon-row { flex-direction: column; }
+  .qty-row { flex-wrap: wrap; gap: .7rem; }
+  .pdp-thumbs img { width: 58px; height: 70px; }
+  .toast-wrap { left: 1rem; right: 1rem; bottom: 1rem; }
+  .toast { max-width: none; }
+  .success-wrap h1 { font-size: 1.45rem; }
+  .values-grid { grid-template-columns: 1fr 1fr; }
+  .page-head { padding-block: 1.4rem; }
+  .footer-bottom { justify-content: center; text-align: center; }
+  .pay-icons { flex-wrap: wrap; justify-content: center; }
+}
+
+/* Small phones */
+@media (max-width: 480px) {
+  .container { padding: 0 14px; }
+  .nav-inner { height: 56px; }
+  .brand { font-size: 1.15rem; }
+  .icon-btn { width: 38px; height: 38px; font-size: 1.05rem; }
+  .topbar { font-size: .65rem; letter-spacing: 0; }
+  .hero-inner { padding-block: 2.2rem; gap: 1.5rem; }
+  .hero-stats { gap: 1rem 1.2rem; }
+  .hero-stats b { font-size: 1.2rem; }
+  .hero-art { max-width: 100%; }
+  .hero-price-chip { position: static; margin-top: .8rem; display: inline-flex; }
+  .section { padding-block: 2.2rem; }
+  .section-head h2 { font-size: 1.35rem; }
+  .product-grid { grid-template-columns: repeat(2, 1fr); gap: .7rem; }
+  .card-body { padding: .7rem .7rem .9rem; gap: .3rem; }
+  .card-title { font-size: .88rem; }
+  .price { font-size: 1rem; }
+  .card-cta .btn { font-size: .78rem; padding: .55rem .4rem; }
+  .cat-grid { gap: .65rem; }
+  .cat-card { min-height: 120px; }
+  .footer-grid { grid-template-columns: 1fr; }
+  .promo { padding: 1.5rem 1rem; border-radius: 14px; }
+  .promo-code { font-size: .8rem; padding: .5rem .8rem; letter-spacing: .04em; flex-wrap: wrap; justify-content: center; }
+  .cart-item { grid-template-columns: 64px 1fr; padding: .75rem; }
+  .cart-item img { width: 64px; height: 78px; }
+  .cart-item h4 { font-size: .88rem; }
+  .summary-card { padding: 1rem; }
+  .co-card { padding: .95rem; }
+  .form-grid { gap: .75rem; }
+  .field input, .field select, .field textarea { padding: .7rem .75rem; font-size: 1rem; }
+  .pdp { padding-block: 1.5rem; gap: 1.2rem; }
+  .pdp-price .price { font-size: 1.45rem; }
+  .pdp-actions .btn { min-width: 100%; padding: .9rem; }
+  .size-btn { min-width: 40px; padding: .5rem .65rem; }
+  .qty-box button { width: 38px; height: 40px; }
+  .qty-box input { width: 40px; }
+  .values-grid { grid-template-columns: 1fr; }
+  .toast-wrap { left: .75rem; right: .75rem; bottom: .75rem; }
+  .btn { padding: .75rem 1.25rem; font-size: .9rem; }
+  .btn-sm { padding: .5rem .9rem; font-size: .8rem; }
+  .mobile-menu { padding: 1rem 1.1rem; }
+  .mobile-menu nav a { padding: .85rem .3rem; font-size: 1rem; }
+  .footer { margin-top: 2rem; }
+  .pay-icons span { font-size: .62rem; padding: .25rem .45rem; }
+  .success-ring { width: 72px; height: 72px; font-size: 2rem; }
+  .order-box .row { font-size: .85rem; flex-wrap: wrap; gap: .25rem; }
+}
+
+/* Very small phones */
+@media (max-width: 360px) {
+  .product-grid { grid-template-columns: repeat(2, 1fr); gap: .55rem; }
+  .hero-cta { flex-direction: column; }
+  .hero-cta .btn { width: 100%; }
+  .card-cta { gap: .4rem; }
+  .cat-card h3 { font-size: .88rem; }
+  .cat-card span { font-size: .7rem; }
 }
