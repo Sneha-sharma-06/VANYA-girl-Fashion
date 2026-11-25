@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order Confirmed — VANYA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+
+  <div class="topbar">FLAT <strong>10% OFF</strong> on your first order — use code <strong>WELCOME10</strong></div>
+
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a class="brand" href="/">VANYA <span>girl fashion</span></a>
+      <ul class="nav-links">
+        <li><a href="/">Home</a></li>
+        <li><a href="/shop.html">Shop</a></li>
+        <li><a href="/cart.html">Cart</a></li>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <a class="icon-btn" href="/shop.html" title="Search">🔍</a>
+        <a class="icon-btn" href="/cart.html" title="Cart">🛒<span class="badge-count" style="display:none">0</span></a>
+        <button class="icon-btn hamburger" id="hamburger" title="Menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <div class="mm-head">
+      <span class="brand">VANYA</span>
+      <button class="mm-close" id="mmClose">✕</button>
+    </div>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/shop.html">Shop All</a>
+      <a href="/cart.html">My Cart</a>
+      <a href="/about.html">About Us</a>
+      <a href="/contact.html">Contact</a>
+    </nav>
+  </div>
+
+  <main class="container success-wrap">
+    <div class="success-ring">✓</div>
+    <h1>Order Confirmed!</h1>
+    <p class="lead">Thank you for shopping with VANYA, <span id="custName">friend</span>. A confirmation email is on its way.</p>
+
+    <div class="order-box" id="orderBox">
+      <div class="row"><span>Order ID</span><span class="ok-id" id="oId">—</span></div>
+      <div class="row"><span>Transaction ID</span><span id="oTxn">—</span></div>
+      <div class="row"><span>Payment Method</span><span id="oMethod">—</span></div>
+      <div class="row"><span>Items</span><span id="oItems">—</span></div>
+      <div class="row"><span>Estimated Delivery</span><span id="oEta">—</span></div>
+      <div class="row"><span>Amount Paid</span><span id="oTotal" style="color:var(--primary)">—</span></div>
+    </div>
+
+    <div style="display:flex;gap:.8rem;justify-content:center;flex-wrap:wrap">
+      <a class="btn btn-primary" href="/shop.html">Continue Shopping</a>
+      <a class="btn btn-outline" href="/">Back to Home</a>
+    </div>
+
+    <div class="trust" style="margin-top:2.5rem;text-align:left">
+      <div class="trust-item"><span class="ico">📦</span><div><h4>Track your order</h4><p>We'll send tracking details once it ships.</p></div></div>
+      <div class="trust-item"><span class="ico">↩️</span><div><h4>7-day returns</h4><p>Changed your mind? Easy returns, no questions.</p></div></div>
+      <div class="trust-item"><span class="ico">💬</span><div><h4>We're here to help</h4><p><a href="/contact.html" style="color:var(--primary);font-weight:600">Contact support →</a></p></div></div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-bottom">
+      <span>© 2026 VANYA Fashion. All rights reserved.</span>
+      <div class="pay-icons"><span>VISA</span><span>MasterCard</span><span>UPI</span><span>RuPay</span><span>COD</span></div>
+    </div>
+  </footer>
+
+  <script src="/js/app.js"></script>
+  <script>
+    const order = JSON.parse(sessionStorage.getItem('vanya_last_order') || 'null');
+    if (!order) {
+      $('#orderBox').innerHTML = '<div class="empty-state"><div class="ico">🧾</div><p>No recent order found.</p></div>';
+    } else {
+      $('#custName').textContent = order.customer.name.split(' ')[0];
+      $('#oId').textContent = order.id;
+      $('#oTxn').textContent = order.transactionId;
+      const methods = { card: 'Credit/Debit Card', upi: 'UPI', netbanking: 'Net Banking', cod: 'Cash on Delivery' };
+      $('#oMethod').textContent = methods[order.paymentMethod] || order.paymentMethod;
+      const qty = order.items.reduce((s, i) => s + i.qty, 0);
+      $('#oItems').textContent = qty + ' item' + (qty > 1 ? 's' : '');
+      const eta = new Date(Date.now() + 4 * 86400000);
+      $('#oEta').textContent = eta.toLocaleDateString('en-IN', { weekday: 'short', day: 'numeric', month: 'short' });
+      $('#oTotal').textContent = fmt(order.total);
+    }
+  </script>
+</body>
+</html>

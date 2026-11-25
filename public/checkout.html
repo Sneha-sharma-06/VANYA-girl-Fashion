@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout — VANYA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+
+  <div class="topbar">🔒 <strong>Secure Checkout</strong> — your payment information is encrypted</div>
+
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a class="brand" href="/">VANYA <span>girl fashion</span></a>
+      <ul class="nav-links">
+        <li><a href="/">Home</a></li>
+        <li><a href="/shop.html">Shop</a></li>
+        <li><a href="/cart.html">Cart</a></li>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <a class="icon-btn" href="/shop.html" title="Search">🔍</a>
+        <a class="icon-btn" href="/cart.html" title="Cart">🛒<span class="badge-count" style="display:none">0</span></a>
+        <button class="icon-btn hamburger" id="hamburger" title="Menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <div class="mm-head">
+      <span class="brand">VANYA</span>
+      <button class="mm-close" id="mmClose">✕</button>
+    </div>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/shop.html">Shop All</a>
+      <a href="/cart.html">My Cart</a>
+      <a href="/about.html">About Us</a>
+      <a href="/contact.html">Contact</a>
+    </nav>
+  </div>
+
+  <div class="page-head">
+    <div class="container">
+      <div class="breadcrumb"><a href="/">Home</a> / <a href="/cart.html">Cart</a> / <span>Checkout</span></div>
+      <h1>Checkout</h1>
+    </div>
+  </div>
+
+  <main class="container checkout-layout">
+    <section>
+      <form id="checkoutForm" novalidate>
+        <!-- SHIPPING -->
+        <div class="co-card">
+          <h3><span class="step">1</span> Shipping Details</h3>
+          <div class="form-grid">
+            <div class="field">
+              <label>Full Name *</label>
+              <input type="text" id="cName" placeholder="Aarohi Sharma" required>
+            </div>
+            <div class="field">
+              <label>Email *</label>
+              <input type="email" id="cEmail" placeholder="you@example.com" required>
+            </div>
+            <div class="field">
+              <label>Phone *</label>
+              <input type="tel" id="cPhone" placeholder="10-digit mobile number" maxlength="10" required>
+            </div>
+            <div class="field">
+              <label>State *</label>
+              <select id="cState" required>
+                <option value="">Select state</option>
+                <option>Andhra Pradesh</option><option>Assam</option><option>Bihar</option>
+                <option>Chhattisgarh</option><option>Delhi</option><option>Goa</option>
+                <option>Gujarat</option><option>Haryana</option><option>Himachal Pradesh</option>
+                <option>Jharkhand</option><option>Karnataka</option><option>Kerala</option>
+                <option>Madhya Pradesh</option><option>Maharashtra</option><option>Odisha</option>
+                <option>Punjab</option><option>Rajasthan</option><option>Tamil Nadu</option>
+                <option>Telangana</option><option>Uttar Pradesh</option><option>Uttarakhand</option>
+                <option>West Bengal</option>
+              </select>
+            </div>
+            <div class="field full">
+              <label>Address Line *</label>
+              <input type="text" id="cAddress" placeholder="House no., street, area" required>
+            </div>
+            <div class="field">
+              <label>City *</label>
+              <input type="text" id="cCity" placeholder="City" required>
+            </div>
+            <div class="field">
+              <label>PIN Code *</label>
+              <input type="text" id="cPin" placeholder="6-digit PIN" maxlength="6" required>
+            </div>
+          </div>
+        </div>
+
+        <!-- PAYMENT -->
+        <div class="co-card">
+          <h3><span class="step">2</span> Payment Method</h3>
+          <div class="pay-methods">
+            <label class="pay-method active" data-method="card">
+              <input type="radio" name="pay" value="card" checked>
+              <span class="pm-ico">💳</span>
+              <div><h4>Credit / Debit Card</h4><p>Visa, Mastercard, RuPay, Amex — instant &amp; secure</p></div>
+            </label>
+            <div class="pay-detail show" id="detail-card">
+              <div class="form-grid">
+                <div class="field full">
+                  <label>Card Number</label>
+                  <input type="text" id="cardNumber" placeholder="1234 5678 9012 3456" maxlength="19">
+                </div>
+                <div class="field full">
+                  <label>Name on Card</label>
+                  <input type="text" id="cardName" placeholder="As printed on card">
+                </div>
+                <div class="field">
+                  <label>Expiry (MM/YY)</label>
+                  <input type="text" id="cardExpiry" placeholder="09/28" maxlength="5">
+                </div>
+                <div class="field">
+                  <label>CVV</label>
+                  <input type="password" id="cardCvv" placeholder="•••" maxlength="4">
+                </div>
+              </div>
+              <p class="hint" style="font-size:.76rem;color:var(--muted);margin-top:.6rem">Demo mode — use any 16-digit number (e.g. 4111 1111 1111 1111), any future expiry and any CVV.</p>
+            </div>
+
+            <label class="pay-method" data-method="upi">
+              <input type="radio" name="pay" value="upi">
+              <span class="pm-ico">📱</span>
+              <div><h4>UPI</h4><p>Google Pay, PhonePe, Paytm &amp; all UPI apps</p></div>
+            </label>
+            <div class="pay-detail" id="detail-upi">
+              <div class="field">
+                <label>Your UPI ID</label>
+                <input type="text" id="upiId" placeholder="yourname@okaxis">
+              </div>
+              <p class="hint" style="font-size:.76rem;color:var(--muted);margin-top:.5rem">A payment request will be sent to your UPI app.</p>
+            </div>
+
+            <label class="pay-method" data-method="netbanking">
+              <input type="radio" name="pay" value="netbanking">
+              <span class="pm-ico">🏦</span>
+              <div><h4>Net Banking</h4><p>All major Indian banks supported</p></div>
+            </label>
+            <div class="pay-detail" id="detail-netbanking">
+              <div class="field">
+                <label>Select Bank</label>
+                <select id="bank">
+                  <option value="">Choose your bank</option>
+                  <option>HDFC Bank</option><option>ICICI Bank</option><option>State Bank of India</option>
+                  <option>Axis Bank</option><option>Kotak Mahindra Bank</option><option>Punjab National Bank</option>
+                  <option>Bank of Baroda</option><option>Canara Bank</option>
+                </select>
+              </div>
+            </div>
+
+            <label class="pay-method" data-method="cod">
+              <input type="radio" name="pay" value="cod">
+              <span class="pm-ico">💵</span>
+              <div><h4>Cash on Delivery</h4><p>Pay when it arrives · ₹20 handling fee applies</p></div>
+            </label>
+            <div class="pay-detail" id="detail-cod">
+              <p style="font-size:.85rem;color:var(--muted)">Please keep exact change ready. COD orders are verified via a quick confirmation call.</p>
+            </div>
+          </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-block" id="payBtn" style="padding:1.05rem;font-size:1.05rem">
+          Pay Securely →
+        </button>
+        <p style="text-align:center;font-size:.78rem;color:var(--muted);margin-top:.8rem">
+          🔒 By placing this order you agree to our Terms &amp; Privacy Policy.
+        </p>
+      </form>
+    </section>
+
+    <!-- ORDER SUMMARY -->
+    <aside class="summary-card">
+      <h3>Your Order</h3>
+      <div class="order-items-mini" id="orderItems"></div>
+      <div class="sum-row"><span>Subtotal</span><span id="oSub">₹0</span></div>
+      <div class="sum-row"><span>Coupon discount</span><span class="save" id="oCoupon">– ₹0</span></div>
+      <div class="sum-row"><span>Shipping</span><span id="oShip">₹0</span></div>
+      <div class="sum-row"><span>GST (5%)</span><span id="oTax">₹0</span></div>
+      <div class="sum-row" id="codRow" style="display:none"><span>COD fee</span><span id="oCod">₹20</span></div>
+      <div class="sum-row total"><span>Total</span><span id="oTotal">₹0</span></div>
+      <div class="free-ship-note" id="oNote"></div>
+      <ul class="pdp-perks" style="margin-top:1rem">
+        <li>Free shipping above ₹1499</li>
+        <li>7-day easy returns</li>
+        <li>100% secure payments</li>
+      </ul>
+    </aside>
+  </main>
+
+  <!-- PROCESSING OVERLAY -->
+  <div id="processing" style="display:none;position:fixed;inset:0;background:rgba(255,255,255,.94);z-index:900;display:none;place-items:center;text-align:center">
+    <div>
+      <div class="spinner" style="width:52px;height:52px;border-width:4px"></div>
+      <h3 style="margin-top:1rem" id="procText">Processing payment…</h3>
+      <p style="color:var(--muted);font-size:.9rem">Please don't close this page</p>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container footer-bottom">
+      <span>© 2026 VANYA Fashion. All rights reserved.</span>
+      <div class="pay-icons"><span>VISA</span><span>MasterCard</span><span>UPI</span><span>RuPay</span><span>COD</span></div>
+    </div>
+  </footer>
+
+  <script src="/js/app.js"></script>
+  <script>
+    let currentMethod = 'card';
+    let couponCode = sessionStorage.getItem('vanya_coupon') || null;
+
+    // guard: empty cart
+    if (!Cart.get().length) {
+      toast('Your cart is empty', 'err');
+      setTimeout(() => location.href = '/cart.html', 900);
+    }
+
+    // ---- summary ----
+    function totals() {
+      const sub = Cart.subtotal();
+      let disc = 0;
+      // re-validate coupon silently
+      return { sub, disc };
+    }
+
+    async function renderSummary() {
+      const items = Cart.get();
+      $('#orderItems').innerHTML = items.map(i => `
+        <div class="oi">
+          <img src="${i.image}" alt="${i.name}">
+          <div><div class="n">${i.name}</div><div class="q">Size ${i.size} · Qty ${i.qty}</div></div>
+          <div class="p">${fmt(i.price * i.qty)}</div>
+        </div>
+      `).join('');
+
+      const sub = Cart.subtotal();
+      let disc = 0;
+      if (couponCode) {
+        const res = await fetch('/api/coupons/validate', {
+          method: 'POST', headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ code: couponCode, subtotal: sub })
+        });
+        const d = await res.json();
+        if (d.valid) disc = d.discount; else { couponCode = null; sessionStorage.removeItem('vanya_coupon'); }
+      }
+
+      const after = sub - disc;
+      const ship = after >= 1499 ? 0 : 79;
+      const tax = Math.round(after * 0.05);
+      const codFee = currentMethod === 'cod' ? 20 : 0;
+      const total = after + ship + tax + codFee;
+
+      $('#oSub').textContent = fmt(sub);
+      $('#oCoupon').textContent = '– ' + fmt(disc);
+      $('#oShip').textContent = ship === 0 ? 'FREE' : fmt(ship);
+      $('#oTax').textContent = fmt(tax);
+      $('#codRow').style.display = codFee ? 'flex' : 'none';
+      $('#oTotal').textContent = fmt(total);
+
+      $('#payBtn').textContent = currentMethod === 'cod'
+        ? `Place Order (COD) → ${fmt(total)}`
+        : `Pay ${fmt(total)} Securely →`;
+
+      $('#oNote').textContent = after >= 1499
+        ? '🎉 Free shipping applied!'
+        : `Add ${fmt(1499 - after)} more for FREE shipping`;
+
+      return { sub, disc, ship, tax, codFee, total };
+    }
+
+    // ---- payment method switch ----
+    $$('.pay-method').forEach(pm => {
+      pm.addEventListener('click', () => {
+        $$('.pay-method').forEach(x => x.classList.remove('active'));
+        pm.classList.add('active');
+        currentMethod = pm.dataset.method;
+        $$('.pay-detail').forEach(d => d.classList.remove('show'));
+        $('#detail-' + currentMethod)?.classList.add('show');
+        renderSummary();
+      });
+    });
+
+    // ---- input formatting ----
+    $('#cardNumber')?.addEventListener('input', e => {
+      let v = e.target.value.replace(/\D/g, '').slice(0, 16);
+      e.target.value = v.replace(/(.{4})/g, '$1 ').trim();
+    });
+    $('#cardExpiry')?.addEventListener('input', e => {
+      let v = e.target.value.replace(/\D/g, '').slice(0, 4);
+      e.target.value = v.length > 2 ? v.slice(0, 2) + '/' + v.slice(2) : v;
+    });
+    $('#cardCvv')?.addEventListener('input', e => {
+      e.target.value = e.target.value.replace(/\D/g, '').slice(0, 4);
+    });
+    $('#cPhone')?.addEventListener('input', e => {
+      e.target.value = e.target.value.replace(/\D/g, '').slice(0, 10);
+    });
+    $('#cPin')?.addEventListener('input', e => {
+      e.target.value = e.target.value.replace(/\D/g, '').slice(0, 6);
+    });
+
+    // ---- submit ----
+    $('#checkoutForm').addEventListener('submit', async e => {
+      e.preventDefault();
+
+      const customer = {
+        name: $('#cName').value.trim(),
+        email: $('#cEmail').value.trim(),
+        phone: $('#cPhone').value.trim(),
+        state: $('#cState').value,
+        address: $('#cAddress').value.trim(),
+        city: $('#cCity').value.trim(),
+        pincode: $('#cPin').value.trim()
+      };
+
+      if (!customer.name || !customer.email || !customer.phone || !customer.state ||
+          !customer.address || !customer.city || !customer.pincode) {
+        toast('Please fill in all shipping details', 'err');
+        $('#cName').focus();
+        return;
+      }
+      if (!/^\d{10}$/.test(customer.phone)) { toast('Enter a valid 10-digit phone number', 'err'); return; }
+      if (!/^\d{6}$/.test(customer.pincode)) { toast('Enter a valid 6-digit PIN code', 'err'); return; }
+      if (!/^\S+@\S+\.\S+$/.test(customer.email)) { toast('Enter a valid email address', 'err'); return; }
+
+      const payment = { method: currentMethod };
+      if (currentMethod === 'card') {
+        payment.cardNumber = $('#cardNumber').value.replace(/\s/g, '');
+        payment.cardName = $('#cardName').value.trim();
+        payment.expiry = $('#cardExpiry').value.trim();
+        payment.cvv = $('#cardCvv').value.trim();
+        if (!payment.cardNumber || !payment.cardName || !payment.expiry || !payment.cvv) {
+          toast('Please fill in all card details', 'err'); return;
+        }
+      }
+      if (currentMethod === 'upi') {
+        payment.upiId = $('#upiId').value.trim();
+        if (!payment.upiId) { toast('Please enter your UPI ID', 'err'); return; }
+      }
+      if (currentMethod === 'netbanking') {
+        payment.bank = $('#bank').value;
+        if (!payment.bank) { toast('Please select your bank', 'err'); return; }
+      }
+
+      const btn = $('#payBtn');
+      btn.disabled = true;
+      const overlay = $('#processing');
+      overlay.style.display = 'grid';
+      $('#procText').textContent = currentMethod === 'cod'
+        ? 'Placing your order…'
+        : currentMethod === 'upi' ? 'Sending UPI request…'
+        : currentMethod === 'netbanking' ? 'Redirecting to your bank…'
+        : 'Processing payment…';
+
+      // simulate gateway latency
+      await new Promise(r => setTimeout(r, 1600));
+
+      try {
+        const res = await fetch('/api/orders', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            items: Cart.get().map(i => ({ id: i.id, qty: i.qty, size: i.size })),
+            customer, payment, couponCode
+          })
+        });
+        const data = await res.json();
+
+        if (!res.ok) {
+          overlay.style.display = 'none';
+          btn.disabled = false;
+          toast(data.error || 'Payment failed. Please try again.', 'err');
+          renderSummary();
+          return;
+        }
+
+        $('#procText').textContent = 'Payment successful! ✓';
+        sessionStorage.setItem('vanya_last_order', JSON.stringify(data.order));
+        Cart.clear();
+        sessionStorage.removeItem('vanya_coupon');
+        setTimeout(() => location.href = '/success.html', 800);
+      } catch (err) {
+        overlay.style.display = 'none';
+        btn.disabled = false;
+        toast('Network error — please try again', 'err');
+        renderSummary();
+      }
+    });
+
+    renderSummary();
+  </script>
+</body>
+</html>

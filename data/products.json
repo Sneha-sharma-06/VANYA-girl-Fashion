@@ -1,0 +1,2243 @@
+[
+  {
+    "id": 1,
+    "name": "Rosewood Floral Maxi Dress",
+    "category": "Dresses",
+    "price": 1299,
+    "mrp": 1999,
+    "rating": 4.7,
+    "reviews": 214,
+    "badge": "Bestseller",
+    "colors": [
+      "#E8A0B4",
+      "#F5E6D3",
+      "#2C2C2C"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "image": "/images/products/p1.jpg",
+    "description": "A flowing floral maxi dress crafted from soft breathable cotton. Perfect for brunch dates, beach walks and evening strolls. Features a flattering A-line silhouette with a smocked bodice.",
+    "details": [
+      "100% premium cotton",
+      "Machine washable",
+      "Model is 5'6\" wearing size S",
+      "Made in India"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Pastel Knit Crop Top",
+    "category": "Tops",
+    "price": 599,
+    "mrp": 899,
+    "rating": 4.5,
+    "reviews": 168,
+    "badge": "New",
+    "colors": [
+      "#B8D4E3",
+      "#F8E8D0",
+      "#E8C4C4"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "image": "/images/products/p2.jpg",
+    "description": "Ultra-soft ribbed knit crop top in dreamy pastel shades. Stretchy, comfy and endlessly pairable with jeans, skirts or cargos.",
+    "details": [
+      "Ribbed knit fabric",
+      "Stretch comfort fit",
+      "Hand wash recommended",
+      "Made in India"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Indigo Block Print Kurti",
+    "category": "Ethnic",
+    "price": 999,
+    "mrp": 1599,
+    "rating": 4.8,
+    "reviews": 342,
+    "badge": "Bestseller",
+    "colors": [
+      "#2E4A7D",
+      "#8B5E3C",
+      "#4A6741"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "image": "/images/products/p3.jpg",
+    "description": "Hand block-printed indigo kurti with gota patti detail. Traditional charm meets everyday comfort — style it with palazzos or jeans.",
+    "details": [
+      "Hand block print",
+      "Cotton cambric",
+      "Side slits with pockets",
+      "Made in India"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "High-Waist Straight Jeans",
+    "category": "Bottoms",
+    "price": 1199,
+    "mrp": 1799,
+    "rating": 4.6,
+    "reviews": 256,
+    "badge": "",
+    "colors": [
+      "#3D5A80",
+      "#1B1B1B",
+      "#8D99AE"
+    ],
+    "sizes": [
+      "26",
+      "28",
+      "30",
+      "32",
+      "34"
+    ],
+    "image": "/images/products/p4.jpg",
+    "description": "Classic high-waist straight jeans in premium stretch denim. Sits at the natural waist, elongates the legs and goes with literally everything.",
+    "details": [
+      "98% cotton, 2% elastane",
+      "Zip fly with button",
+      "5 pocket styling",
+      "Made in India"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Sunset Ombre Wrap Dress",
+    "category": "Dresses",
+    "price": 1499,
+    "mrp": 2299,
+    "rating": 4.9,
+    "reviews": 411,
+    "badge": "Trending",
+    "colors": [
+      "#F4A261",
+      "#E76F51",
+      "#E9C46A"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "image": "/images/products/p5.jpg",
+    "description": "Show-stopping ombre wrap dress that transitions beautifully from day to night. Adjustable tie waist and a universally flattering V-neckline.",
+    "details": [
+      "Flowy georgette",
+      "Adjustable wrap tie",
+      "Fully lined",
+      "Made in India"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Cozy Oversized Hoodie",
+    "category": "Winter Wear",
+    "price": 1099,
+    "mrp": 1699,
+    "rating": 4.7,
+    "reviews": 189,
+    "badge": "",
+    "colors": [
+      "#D4A373",
+      "#6C757D",
+      "#343A40"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "image": "/images/products/p6.jpg",
+    "description": "Cloud-soft oversized hoodie with kangaroo pocket and brushed fleece lining. Your new cold-weather best friend.",
+    "details": [
+      "80% cotton, 20% polyester",
+      "Brushed fleece inside",
+      "Drop shoulders",
+      "Made in India"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Embroidered Anarkali Set",
+    "category": "Ethnic",
+    "price": 2499,
+    "mrp": 3799,
+    "rating": 4.8,
+    "reviews": 275,
+    "badge": "Premium",
+    "colors": [
+      "#9B2335",
+      "#1D3557",
+      "#2A9D8F"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "image": "/images/products/p7.jpg",
+    "description": "Festive Anarkali with resham embroidery, dupatta and churidar. Twirl-worthy flare for weddings, festivals and celebrations.",
+    "details": [
+      "Art silk with lining",
+      "Hand embroidery",
+      "3-piece set with dupatta",
+      "Made in India"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Pleated Midi Skirt",
+    "category": "Bottoms",
+    "price": 899,
+    "mrp": 1399,
+    "rating": 4.5,
+    "reviews": 132,
+    "badge": "New",
+    "colors": [
+      "#B5838D",
+      "#22223B",
+      "#457B9D"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "image": "/images/products/p8.jpg",
+    "description": "Breezy pleated midi skirt that swishes as you walk. Elasticated waist for all-day comfort — dress it up or down.",
+    "details": [
+      "Lightweight pleated fabric",
+      "Elastic waistband",
+      "Lined",
+      "Made in India"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Classic White Shirt",
+    "category": "Tops",
+    "price": 749,
+    "mrp": 1199,
+    "rating": 4.6,
+    "reviews": 298,
+    "badge": "Bestseller",
+    "colors": [
+      "#FFFFFF",
+      "#F1FAEE",
+      "#DDBEA9"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "image": "/images/products/p9.jpg",
+    "description": "The perfect crisp white shirt — slightly oversized, beautifully structured and endlessly versatile. A wardrobe anchor.",
+    "details": [
+      "Premium cotton poplin",
+      "Mother-of-pearl buttons",
+      "Curved hem",
+      "Made in India"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Boho Tiered Sundress",
+    "category": "Dresses",
+    "price": 999,
+    "mrp": 1599,
+    "rating": 4.4,
+    "reviews": 147,
+    "badge": "",
+    "colors": [
+      "#FFB703",
+      "#FB8500",
+      "#8ECAE6"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "image": "/images/products/p10.jpg",
+    "description": "Free-spirited tiered sundress with ruffle straps. Throw it on with sandals and you're vacation-ready.",
+    "details": [
+      "Rayon crepe",
+      "Ruffle straps",
+      "Tiered flare",
+      "Made in India"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Yoga Flex Leggings",
+    "category": "Bottoms",
+    "price": 799,
+    "mrp": 1299,
+    "rating": 4.7,
+    "reviews": 364,
+    "badge": "Trending",
+    "colors": [
+      "#264653",
+      "#6A4C93",
+      "#1D3557"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "image": "/images/products/p11.jpg",
+    "description": "Squat-proof, buttery-soft high-rise leggings with a hidden waistband pocket. For studio, street and sofa.",
+    "details": [
+      "Buttery soft spandex blend",
+      "4-way stretch",
+      "Hidden back pocket",
+      "Made in India"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Bandhani Silk Saree",
+    "category": "Ethnic",
+    "price": 1899,
+    "mrp": 2999,
+    "rating": 4.9,
+    "reviews": 198,
+    "badge": "Premium",
+    "colors": [
+      "#E63946",
+      "#FFB703",
+      "#2A9D8F"
+    ],
+    "sizes": [
+      "Free Size"
+    ],
+    "image": "/images/products/p12.jpg",
+    "description": "Traditional bandhani tie-dye on pure art silk with zari border. Comes with blouse piece — festival ready in minutes.",
+    "details": [
+      "Art silk with zari border",
+      "6 yards with blouse piece",
+      "Bandhani tie-dye",
+      "Made in India"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Denim Jacket",
+    "category": "Winter Wear",
+    "price": 1599,
+    "mrp": 2499,
+    "rating": 4.8,
+    "reviews": 221,
+    "badge": "Bestseller",
+    "colors": [
+      "#457B9D",
+      "#1D3557",
+      "#A8DADC"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "image": "/images/products/p13.jpg",
+    "description": "Timeless denim jacket with a slightly relaxed fit. Layer it over dresses, hoodies or tees — it works with everything, forever.",
+    "details": [
+      "100% cotton denim",
+      "Button closure",
+      "Chest & side pockets",
+      "Made in India"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Satin Cami Top",
+    "category": "Tops",
+    "price": 649,
+    "mrp": 999,
+    "rating": 4.5,
+    "reviews": 156,
+    "badge": "",
+    "colors": [
+      "#E9C46A",
+      "#E76F51",
+      "#264653"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "image": "/images/products/p14.jpg",
+    "description": "Luxe satin cami with adjustable straps and a subtle sheen. Tuck it in, layer it up — instant polish.",
+    "details": [
+      "Premium satin",
+      "Adjustable straps",
+      "Slip-on styling",
+      "Made in India"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Palazzo Comfort Pants",
+    "category": "Bottoms",
+    "price": 849,
+    "mrp": 1299,
+    "rating": 4.6,
+    "reviews": 187,
+    "badge": "",
+    "colors": [
+      "#264653",
+      "#E9C46A",
+      "#6B705C"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "image": "/images/products/p15.jpg",
+    "description": "Flowy high-rise palazzos with an elasticated waist. Office to airport to couch — ultimate ease.",
+    "details": [
+      "Rayon blend",
+      "Elasticated waist",
+      "Side pockets",
+      "Made in India"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Sequin Party Mini Dress",
+    "category": "Dresses",
+    "price": 1799,
+    "mrp": 2799,
+    "rating": 4.7,
+    "reviews": 143,
+    "badge": "Party Edit",
+    "colors": [
+      "#C77DFF",
+      "#FF4D6D",
+      "#00B4D8"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "image": "/images/products/p16.jpg",
+    "description": "Shimmer all night in this sequin mini with a flattering fit. For birthdays, NYE and every reason to celebrate.",
+    "details": [
+      "Sequin mesh overlay",
+      "Concealed zip",
+      "Sleeveless",
+      "Made in India"
+    ]
+  },
+  {
+    "id": 17,
+    "badge": "Premium",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "name": "Burgundy Tulle Ball Gown",
+    "category": "Dresses",
+    "price": 2499,
+    "mrp": 3799,
+    "rating": 4.8,
+    "reviews": 187,
+    "colors": [
+      "#7B1E3A",
+      "#1B1B1B",
+      "#4A0E22"
+    ],
+    "image": "/images/products/p17.jpg",
+    "description": "Show-stopping tulle ball gown with layered flare — made for proms, receptions and every main-character moment.",
+    "details": [
+      "Multi-layer tulle with lining",
+      "Zip closure",
+      "Dry clean only",
+      "Made in India"
+    ]
+  },
+  {
+    "id": 18,
+    "badge": "Trending",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "name": "Scarlet Satin Slip Dress",
+    "category": "Dresses",
+    "price": 1399,
+    "mrp": 2099,
+    "rating": 4.7,
+    "reviews": 264,
+    "colors": [
+      "#C1121F",
+      "#1B1B1B",
+      "#E8A0B4"
+    ],
+    "image": "/images/products/p18.jpg",
+    "description": "Liquid-satin slip dress with a dramatic thigh slit. Minimal, bold and impossibly elegant for evenings out.",
+    "details": [
+      "Premium satin",
+      "Adjustable straps",
+      "Concealed zip",
+      "Made in India"
+    ]
+  },
+  {
+    "id": 19,
+    "badge": "",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "name": "Classic Polka Dot Wrap Dress",
+    "category": "Dresses",
+    "price": 1099,
+    "mrp": 1699,
+    "rating": 4.6,
+    "reviews": 203,
+    "colors": [
+      "#B5124E",
+      "#1B1B1B",
+      "#FFFFFF"
+    ],
+    "image": "/images/products/p19.jpg",
+    "description": "Timeless polka-dot wrap dress with a ruffled hem. Flattering on every body — from office to weekend brunch.",
+    "details": [
+      "Lightweight georgette",
+      "Wrap tie waist",
+      "Machine washable",
+      "Made in India"
+    ]
+  },
+  {
+    "id": 20,
+    "badge": "",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "name": "Maroon Button-Down Shirt Dress",
+    "category": "Dresses",
+    "price": 999,
+    "mrp": 1599,
+    "rating": 4.5,
+    "reviews": 156,
+    "colors": [
+      "#6B1D2A",
+      "#2C2C2C",
+      "#8D5A3B"
+    ],
+    "image": "/images/products/p20.jpg",
+    "description": "Relaxed shirt dress in rich maroon with full button placket. Belt it, wear it open as a layer — endlessly versatile.",
+    "details": [
+      "Cotton blend",
+      "Side pockets",
+      "Machine washable",
+      "Made in India"
+    ]
+  },
+  {
+    "id": 21,
+    "badge": "Bestseller",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "name": "Midnight Navy Lace Dress",
+    "category": "Dresses",
+    "price": 1599,
+    "mrp": 2499,
+    "rating": 4.8,
+    "reviews": 231,
+    "colors": [
+      "#1B2A4A",
+      "#1B1B1B",
+      "#7B1E3A"
+    ],
+    "image": "/images/products/p21.jpg",
+    "description": "Intricate floral lace bodycon with sheer sleeves and cut-out detail. Your new party-season favourite.",
+    "details": [
+      "Lace overlay with lining",
+      "Concealed zip",
+      "Hand wash",
+      "Made in India"
+    ]
+  },
+  {
+    "id": 22,
+    "badge": "New",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "name": "Ocean Breeze Slit Maxi",
+    "category": "Dresses",
+    "price": 1299,
+    "mrp": 1999,
+    "rating": 4.7,
+    "reviews": 178,
+    "colors": [
+      "#7FB3D5",
+      "#E8F4FA",
+      "#2C6E8F"
+    ],
+    "image": "/images/products/p22.jpg",
+    "description": "Flowing ocean-blue maxi with a high thigh slit and adjustable straps. Vacation-ready in one step.",
+    "details": [
+      "Rayon crepe",
+      "Adjustable straps",
+      "Lined",
+      "Made in India"
+    ]
+  },
+  {
+    "id": 23,
+    "badge": "",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "name": "White Ruffle Mini Dress",
+    "category": "Dresses",
+    "price": 899,
+    "mrp": 1399,
+    "rating": 4.5,
+    "reviews": 142,
+    "colors": [
+      "#FFFFFF",
+      "#F5E6D3",
+      "#E8A0B4"
+    ],
+    "image": "/images/products/p23.jpg",
+    "description": "Flirty off-shoulder mini with tiered ruffles. Pair with sneakers by day, heels by night.",
+    "details": [
+      "Cotton poplin",
+      "Off-shoulder neckline",
+      "Machine washable",
+      "Made in India"
+    ]
+  },
+  {
+    "id": 24,
+    "badge": "",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "name": "Black Turtle-Neck Dress",
+    "category": "Dresses",
+    "price": 1199,
+    "mrp": 1799,
+    "rating": 4.6,
+    "reviews": 167,
+    "colors": [
+      "#1B1B1B",
+      "#4A4A4A",
+      "#7B1E3A"
+    ],
+    "image": "/images/products/p24.jpg",
+    "description": "Sleek black turtle-neck with a tie-waist and A-line skirt. The little black dress, reimagined for winter.",
+    "details": [
+      "Ribbed knit",
+      "Self-tie belt",
+      "Machine washable",
+      "Made in India"
+    ]
+  },
+  {
+    "id": 25,
+    "badge": "Trending",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "name": "Denim Shirt Dress",
+    "category": "Dresses",
+    "price": 1299,
+    "mrp": 1949,
+    "rating": 4.7,
+    "reviews": 219,
+    "colors": [
+      "#4A6FA5",
+      "#1B1B1B",
+      "#8D99AE"
+    ],
+    "image": "/images/products/p25.jpg",
+    "description": "Classic chambray shirt dress with button front and a flared skirt. Throw on and own the day.",
+    "details": [
+      "100% cotton chambray",
+      "Button closure",
+      "Side pockets",
+      "Made in India"
+    ]
+  },
+  {
+    "id": 26,
+    "badge": "",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "name": "Oversized Black Graphic Tee",
+    "category": "Tops",
+    "price": 549,
+    "mrp": 899,
+    "rating": 4.5,
+    "reviews": 246,
+    "colors": [
+      "#1B1B1B",
+      "#FFFFFF",
+      "#4A4A4A"
+    ],
+    "image": "/images/products/p26.jpg",
+    "description": "Ultra-soft oversized graphic tee with a relaxed drop-shoulder fit. Street-style staple, endlessly pairable.",
+    "details": [
+      "220 GSM combed cotton",
+      "Oversized fit",
+      "Pre-shrunk",
+      "Made in India"
+    ]
+  },
+  {
+    "id": 27,
+    "badge": "Bestseller",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "name": "White Quote Cotton Tee",
+    "category": "Tops",
+    "price": 499,
+    "mrp": 799,
+    "rating": 4.6,
+    "reviews": 312,
+    "colors": [
+      "#FFFFFF",
+      "#F1FAEE",
+      "#DDBEA9"
+    ],
+    "image": "/images/products/p27.jpg",
+    "description": "Crisp white tee with a minimal quote print. The hardest-working piece in any wardrobe.",
+    "details": [
+      "180 GSM cotton",
+      "Regular fit",
+      "Machine washable",
+      "Made in India"
+    ]
+  },
+  {
+    "id": 28,
+    "badge": "New",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "name": "Bold Red Street Tee",
+    "category": "Tops",
+    "price": 599,
+    "mrp": 949,
+    "rating": 4.6,
+    "reviews": 189,
+    "colors": [
+      "#D22B2B",
+      "#1B1B1B",
+      "#F5B301"
+    ],
+    "image": "/images/products/p28.jpg",
+    "description": "Punchy red tee with an oversized logo print. Style it with denim, cargos or layer under a blazer.",
+    "details": [
+      "200 GSM cotton",
+      "Relaxed fit",
+      "Pre-shrunk",
+      "Made in India"
+    ]
+  },
+  {
+    "id": 29,
+    "badge": "Trending",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "name": "Black Sheer Mesh Top",
+    "category": "Tops",
+    "price": 799,
+    "mrp": 1249,
+    "rating": 4.7,
+    "reviews": 134,
+    "colors": [
+      "#1B1B1B",
+      "#7B1E3A",
+      "#FFFFFF"
+    ],
+    "image": "/images/products/p29.jpg",
+    "description": "Figure-skimming sheer mesh top with long sleeves. Layer over a cami for instant night-out energy.",
+    "details": [
+      "Stretch mesh",
+      "Long sleeves",
+      "Hand wash",
+      "Made in India"
+    ]
+  },
+  {
+    "id": 30,
+    "badge": "Premium",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "name": "Rose Pink Bridal Saree",
+    "category": "Ethnic",
+    "price": 2299,
+    "mrp": 3499,
+    "rating": 4.9,
+    "reviews": 156,
+    "colors": [
+      "#D4738A",
+      "#9B2335",
+      "#F5E6D3"
+    ],
+    "image": "/images/products/p30.jpg",
+    "description": "Hand-finished rose-pink saree with heavy border work and matching blouse piece. Wedding-season showstopper.",
+    "details": [
+      "Art silk with zari border",
+      "6 yards with blouse piece",
+      "Dry clean only",
+      "Made in India"
+    ]
+  },
+  {
+    "id": 31,
+    "badge": "Bestseller",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "name": "Sunshine Anarkali Gown",
+    "category": "Ethnic",
+    "price": 1899,
+    "mrp": 2899,
+    "rating": 4.8,
+    "reviews": 198,
+    "colors": [
+      "#F5B301",
+      "#E63946",
+      "#2A9D8F"
+    ],
+    "image": "/images/products/p31.jpg",
+    "description": "Floor-length yellow Anarkali with delicate embroidery and a flared hem. Twirl-worthy for every celebration.",
+    "details": [
+      "Art silk with lining",
+      "Hand embroidery",
+      "3-piece set",
+      "Made in India"
+    ]
+  },
+  {
+    "id": 32,
+    "badge": "New",
+    "sizes": [
+      "26",
+      "28",
+      "30",
+      "32",
+      "34"
+    ],
+    "name": "Sunshine Printed Pants",
+    "category": "Bottoms",
+    "price": 899,
+    "mrp": 1399,
+    "rating": 4.5,
+    "reviews": 97,
+    "colors": [
+      "#F5B301",
+      "#E8A0B4",
+      "#2C2C2C"
+    ],
+    "image": "/images/products/p32.jpg",
+    "description": "Playful printed straight pants with an elasticated waist. Bold, breezy and built for weekend adventures.",
+    "details": [
+      "Cotton poplin",
+      "Elasticated waist",
+      "Side pockets",
+      "Made in India"
+    ]
+  },
+  {
+    "id": 33,
+    "badge": "",
+    "sizes": [
+      "26",
+      "28",
+      "30",
+      "32",
+      "34"
+    ],
+    "name": "Sky Blue Skinny Jeans",
+    "category": "Bottoms",
+    "price": 1099,
+    "mrp": 1699,
+    "rating": 4.6,
+    "reviews": 284,
+    "colors": [
+      "#7FB3D5",
+      "#1B1B1B",
+      "#8D99AE"
+    ],
+    "image": "/images/products/p33.jpg",
+    "description": "Light-wash skinny jeans with just the right amount of stretch. The denim you will reach for every day.",
+    "details": [
+      "98% cotton, 2% elastane",
+      "High-rise skinny fit",
+      "5 pocket styling",
+      "Made in India"
+    ]
+  },
+  {
+    "id": 34,
+    "badge": "",
+    "sizes": [
+      "26",
+      "28",
+      "30",
+      "32",
+      "34"
+    ],
+    "name": "Chocolate Pleated Midi Skirt",
+    "category": "Bottoms",
+    "price": 949,
+    "mrp": 1499,
+    "rating": 4.7,
+    "reviews": 143,
+    "colors": [
+      "#6B4423",
+      "#1B1B1B",
+      "#DDBEA9"
+    ],
+    "image": "/images/products/p34.jpg",
+    "description": "Flowy pleated midi in rich chocolate brown. Office-appropriate with a blouse, party-ready with a crop.",
+    "details": [
+      "Pleated chiffon",
+      "Elasticated waist",
+      "Lined",
+      "Made in India"
+    ]
+  },
+  {
+    "id": 35,
+    "badge": "",
+    "sizes": [
+      "26",
+      "28",
+      "30",
+      "32",
+      "34"
+    ],
+    "name": "Everyday Denim Shorts",
+    "category": "Bottoms",
+    "price": 699,
+    "mrp": 1099,
+    "rating": 4.5,
+    "reviews": 221,
+    "colors": [
+      "#4A6FA5",
+      "#1B1B1B",
+      "#8D99AE"
+    ],
+    "image": "/images/products/p35.jpg",
+    "description": "Classic mid-rise denim shorts with a rolled hem. Summer uniform, sorted.",
+    "details": [
+      "100% cotton denim",
+      "Mid-rise fit",
+      "5 pocket styling",
+      "Made in India"
+    ]
+  },
+  {
+    "id": 36,
+    "badge": "Trending",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "name": "Olive Utility Jacket",
+    "category": "Winter Wear",
+    "price": 1499,
+    "mrp": 2299,
+    "rating": 4.7,
+    "reviews": 167,
+    "colors": [
+      "#556B2F",
+      "#2C2C2C",
+      "#8D5A3B"
+    ],
+    "image": "/images/products/p36.jpg",
+    "description": "Cropped utility jacket with flap pockets and a stand collar. Layers over everything from tees to hoodies.",
+    "details": [
+      "Cotton twill",
+      "Button & zip closure",
+      "4 pockets",
+      "Made in India"
+    ]
+  },
+  {
+    "id": 37,
+    "badge": "New",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "name": "Sunshine Co-ord Set",
+    "category": "Co-ord Sets",
+    "price": 1399,
+    "mrp": 2199,
+    "rating": 4.8,
+    "reviews": 124,
+    "colors": [
+      "#F5B301",
+      "#E8A0B4",
+      "#2A9D8F"
+    ],
+    "image": "/images/products/p37.jpg",
+    "description": "Matching cropped hoodie and jogger set in sunny yellow. Effortless style — zero outfit decisions needed.",
+    "details": [
+      "French terry cotton",
+      "2-piece set",
+      "Elasticated cuffs",
+      "Made in India"
+    ]
+  },
+  {
+    "id": 38,
+    "badge": "Bestseller",
+    "sizes": [
+      "Free Size"
+    ],
+    "name": "Classic Red Handbag",
+    "category": "Accessories",
+    "price": 1499,
+    "mrp": 2299,
+    "rating": 4.7,
+    "reviews": 112,
+    "colors": [
+      "#C1121F",
+      "#1B1B1B",
+      "#DDBEA9"
+    ],
+    "image": "/images/products/p38.jpg",
+    "description": "Structured red top-handle bag with a detachable strap. The pop of colour every outfit needs.",
+    "details": [
+      "Vegan leather",
+      "Detachable sling",
+      "Zip closure",
+      "Made in India"
+    ]
+  },
+  {
+    "id": 39,
+    "badge": "",
+    "sizes": [
+      "Free Size"
+    ],
+    "name": "Floral Stiletto Heels",
+    "category": "Accessories",
+    "price": 1799,
+    "mrp": 2699,
+    "rating": 4.6,
+    "reviews": 89,
+    "colors": [
+      "#E8A0B4",
+      "#2A9D8F",
+      "#F5B301"
+    ],
+    "image": "/images/products/p39.jpg",
+    "description": "Printed stiletto heels with a pointed toe. Wedding-party approved and surprisingly comfortable.",
+    "details": [
+      "Synthetic upper",
+      "85 mm heel",
+      "Cushioned insole",
+      "Made in India"
+    ]
+  },
+  {
+    "id": 40,
+    "badge": "",
+    "sizes": [
+      "Free Size"
+    ],
+    "name": "Woven Tote Bag",
+    "category": "Accessories",
+    "price": 1299,
+    "mrp": 1999,
+    "rating": 4.5,
+    "reviews": 76,
+    "colors": [
+      "#D2691E",
+      "#DDBEA9",
+      "#1B1B1B"
+    ],
+    "image": "/images/products/p40.jpg",
+    "description": "Handwoven tan tote with a structured silhouette. Beach days, market runs, everyday carry-all.",
+    "details": [
+      "Woven leatherette",
+      "Interior zip pocket",
+      "Spacious main compartment",
+      "Made in India"
+    ]
+  },
+  {
+    "id": 41,
+    "badge": "New",
+    "sizes": [
+      "Free Size"
+    ],
+    "name": "Pink Chain Sling Bag",
+    "category": "Accessories",
+    "price": 999,
+    "mrp": 1599,
+    "rating": 4.6,
+    "reviews": 98,
+    "colors": [
+      "#E8A0B4",
+      "#FFFFFF",
+      "#1B1B1B"
+    ],
+    "image": "/images/products/p41.jpg",
+    "description": "Pastel pink sling with a gold chain strap. Small, chic and holds exactly what you need.",
+    "details": [
+      "Vegan leather",
+      "Gold-tone chain",
+      "Magnetic closure",
+      "Made in India"
+    ]
+  },
+  {
+    "id": 42,
+    "badge": "",
+    "sizes": [
+      "Free Size"
+    ],
+    "name": "Comfort Cork Sandals",
+    "category": "Accessories",
+    "price": 899,
+    "mrp": 1399,
+    "rating": 4.7,
+    "reviews": 187,
+    "colors": [
+      "#DDBEA9",
+      "#8D5A3B",
+      "#1B1B1B"
+    ],
+    "image": "/images/products/p42.jpg",
+    "description": "Cushioned cork-footbed sliders that go with dresses, jeans and everything between.",
+    "details": [
+      "Cork footbed",
+      "Adjustable straps",
+      "Non-slip sole",
+      "Made in India"
+    ]
+  },
+  {
+    "id": 43,
+    "badge": "Trending",
+    "sizes": [
+      "Free Size"
+    ],
+    "name": "Air Runner Sneakers",
+    "category": "Accessories",
+    "price": 1999,
+    "mrp": 2999,
+    "rating": 4.8,
+    "reviews": 243,
+    "colors": [
+      "#FFFFFF",
+      "#F5B301",
+      "#7FB3D5"
+    ],
+    "image": "/images/products/p43.jpg",
+    "description": "Feather-light runners with a cushioned sole. From coffee runs to travel days — your feet will thank you.",
+    "details": [
+      "Mesh upper",
+      "Memory-foam insole",
+      "Rubber outsole",
+      "Made in India"
+    ]
+  },
+  {
+    "id": 44,
+    "name": "Navy Everyday Backpack",
+    "category": "Accessories",
+    "price": 1499,
+    "mrp": 2199,
+    "rating": 4.7,
+    "reviews": 89,
+    "colors": [
+      "#1B2A4A",
+      "#3D5A80"
+    ],
+    "sizes": [
+      "Free Size"
+    ],
+    "image": "/images/products/p44.jpg",
+    "description": "Roomy navy backpack with padded straps — perfect for college, travel, and everyday hauls.",
+    "details": [
+      "Water-resistant fabric",
+      "Padded laptop sleeve",
+      "Dual zip compartments",
+      "Made in India"
+    ],
+    "badge": "New"
+  },
+  {
+    "id": 45,
+    "name": "Quilted Chain Shoulder Bag",
+    "category": "Accessories",
+    "price": 1799,
+    "mrp": 2599,
+    "rating": 4.8,
+    "reviews": 156,
+    "colors": [
+      "#1A1A1A",
+      "#C0C0C0"
+    ],
+    "sizes": [
+      "Free Size"
+    ],
+    "image": "/images/products/p45.jpg",
+    "description": "Black quilted shoulder bag with a gold-tone chain — instant chic for brunch or evenings out.",
+    "details": [
+      "Quilted vegan leather",
+      "Gold chain strap",
+      "Magnetic snap closure",
+      "Interior slip pocket"
+    ],
+    "badge": "Trending"
+  },
+  {
+    "id": 46,
+    "name": "Teal Structured Handbag",
+    "category": "Accessories",
+    "price": 1599,
+    "mrp": 2299,
+    "rating": 4.6,
+    "reviews": 72,
+    "colors": [
+      "#0E7C7B",
+      "#1B4965"
+    ],
+    "sizes": [
+      "Free Size"
+    ],
+    "image": "/images/products/p46.jpg",
+    "description": "Structured teal handbag that pops against every outfit — top-handle convenience with crossbody option.",
+    "details": [
+      "Structured silhouette",
+      "Detachable strap",
+      "Gold hardware",
+      "Satin-lined interior"
+    ]
+  },
+  {
+    "id": 47,
+    "name": "Grey Chain Crossbody",
+    "category": "Accessories",
+    "price": 1399,
+    "mrp": 1999,
+    "rating": 4.5,
+    "reviews": 64,
+    "colors": [
+      "#9AA5B1",
+      "#E5E7EB"
+    ],
+    "sizes": [
+      "Free Size"
+    ],
+    "image": "/images/products/p47.jpg",
+    "description": "Light grey crossbody with a delicate chain strap — hands-free style for city days.",
+    "details": [
+      "Vegan leather",
+      "Adjustable chain",
+      "Zip closure",
+      "Inner card slots"
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Floral Print Handbag",
+    "category": "Accessories",
+    "price": 1699,
+    "mrp": 2499,
+    "rating": 4.9,
+    "reviews": 203,
+    "colors": [
+      "#E8B4B8",
+      "#6B8E6B"
+    ],
+    "sizes": [
+      "Free Size"
+    ],
+    "image": "/images/products/p48.jpg",
+    "description": "Soft floral-printed handbag with vintage charm — a statement piece that starts conversations.",
+    "details": [
+      "Printed fabric body",
+      "Reinforced handles",
+      "Zip top",
+      "Detachable sling"
+    ],
+    "badge": "Bestseller"
+  },
+  {
+    "id": 49,
+    "name": "Pearl Strand Necklace",
+    "category": "Accessories",
+    "price": 999,
+    "mrp": 1599,
+    "rating": 4.8,
+    "reviews": 187,
+    "colors": [
+      "#F5F0E8",
+      "#E8E0D0"
+    ],
+    "sizes": [
+      "Free Size"
+    ],
+    "image": "/images/products/p49.jpg",
+    "description": "Classic pearl strand necklace — timeless elegance for parties, dates, and festive days.",
+    "details": [
+      "Freshwater-style pearls",
+      "Lobster clasp",
+      "18\" length",
+      "Nickel-free"
+    ],
+    "badge": "Trending"
+  },
+  {
+    "id": 50,
+    "name": "Layered Pendant Set",
+    "category": "Accessories",
+    "price": 799,
+    "mrp": 1299,
+    "rating": 4.7,
+    "reviews": 134,
+    "colors": [
+      "#D4AF37",
+      "#1A1A1A"
+    ],
+    "sizes": [
+      "Free Size"
+    ],
+    "image": "/images/products/p50.jpg",
+    "description": "Double-layered pendant set with crescent and crystal drops — effortless stacked look.",
+    "details": [
+      "Two-piece set",
+      "Adjustable chains",
+      "Gold-tone finish",
+      "Hypoallergenic"
+    ]
+  },
+  {
+    "id": 51,
+    "name": "Blue Stone Drop Earrings",
+    "category": "Accessories",
+    "price": 899,
+    "mrp": 1499,
+    "rating": 4.6,
+    "reviews": 98,
+    "colors": [
+      "#1E5F8E",
+      "#C0C0C0"
+    ],
+    "sizes": [
+      "Free Size"
+    ],
+    "image": "/images/products/p51.jpg",
+    "description": "Sparkling blue stone drop earrings that catch the light — made for festive evenings.",
+    "details": [
+      "Cubic zirconia stones",
+      "Silver-tone setting",
+      "Push-back closure",
+      "Lightweight"
+    ]
+  },
+  {
+    "id": 52,
+    "name": "Delicate Chain Necklace",
+    "category": "Accessories",
+    "price": 699,
+    "mrp": 1099,
+    "rating": 4.5,
+    "reviews": 76,
+    "colors": [
+      "#D4AF37",
+      "#F5F0E8"
+    ],
+    "sizes": [
+      "Free Size"
+    ],
+    "image": "/images/products/p52.jpg",
+    "description": "Fine gold-tone chain with a dainty charm — the everyday necklace you never take off.",
+    "details": [
+      "14k gold-plated",
+      "Adjustable length",
+      "Spring ring clasp",
+      "Water-resistant"
+    ]
+  },
+  {
+    "id": 53,
+    "name": "Gold Link Bracelet",
+    "category": "Accessories",
+    "price": 1199,
+    "mrp": 1799,
+    "rating": 4.7,
+    "reviews": 112,
+    "colors": [
+      "#D4AF37"
+    ],
+    "sizes": [
+      "Free Size"
+    ],
+    "image": "/images/products/p53.jpg",
+    "description": "Bold gold link bracelet with a polished finish — stacks beautifully or shines alone.",
+    "details": [
+      "Chunky link design",
+      "Lobster clasp",
+      "Gold-tone alloy",
+      "Tarnish-resistant"
+    ],
+    "badge": "New"
+  },
+  {
+    "id": 54,
+    "name": "Crystal Tennis Bracelet",
+    "category": "Accessories",
+    "price": 1499,
+    "mrp": 2299,
+    "rating": 4.9,
+    "reviews": 241,
+    "colors": [
+      "#E8E8E8",
+      "#C0C0C0"
+    ],
+    "sizes": [
+      "Free Size"
+    ],
+    "image": "/images/products/p54.jpg",
+    "description": "Brilliant crystal tennis bracelet — red-carpet sparkle without the red-carpet price.",
+    "details": [
+      "AAA cubic zirconia",
+      "Secure box clasp",
+      "Silver-tone",
+      "Gift box included"
+    ],
+    "badge": "Trending"
+  },
+  {
+    "id": 55,
+    "name": "White Smart Watch",
+    "category": "Accessories",
+    "price": 2499,
+    "mrp": 3499,
+    "rating": 4.8,
+    "reviews": 312,
+    "colors": [
+      "#FFFFFF",
+      "#E5E7EB"
+    ],
+    "sizes": [
+      "Free Size"
+    ],
+    "image": "/images/products/p55.jpg",
+    "description": "Sleek white smartwatch with fitness tracking and notifications — style meets smart.",
+    "details": [
+      "Touch display",
+      "Heart-rate monitor",
+      "50m water resistant",
+      "iOS & Android"
+    ],
+    "badge": "Trending"
+  },
+  {
+    "id": 56,
+    "name": "Minimalist Rose Watch",
+    "category": "Accessories",
+    "price": 1799,
+    "mrp": 2699,
+    "rating": 4.6,
+    "reviews": 145,
+    "colors": [
+      "#E8C4C4",
+      "#D4AF37"
+    ],
+    "sizes": [
+      "Free Size"
+    ],
+    "image": "/images/products/p56.jpg",
+    "description": "Minimalist watch with a soft rose-gold case and leather strap — quiet luxury for daily wear.",
+    "details": [
+      "Quartz movement",
+      "Genuine leather strap",
+      "30m water resistant",
+      "2-year warranty"
+    ]
+  },
+  {
+    "id": 57,
+    "name": "Round Frame Sunglasses",
+    "category": "Accessories",
+    "price": 899,
+    "mrp": 1499,
+    "rating": 4.5,
+    "reviews": 88,
+    "colors": [
+      "#C0C0C0",
+      "#1A1A1A"
+    ],
+    "sizes": [
+      "Free Size"
+    ],
+    "image": "/images/products/p57.jpg",
+    "description": "Round metal-frame sunglasses with a retro vibe — instant cool for sunny days.",
+    "details": [
+      "UV400 lenses",
+      "Lightweight metal frame",
+      "Spring hinges",
+      "Case included"
+    ]
+  },
+  {
+    "id": 58,
+    "name": "Classic Black Shades",
+    "category": "Accessories",
+    "price": 999,
+    "mrp": 1599,
+    "rating": 4.7,
+    "reviews": 201,
+    "colors": [
+      "#1A1A1A"
+    ],
+    "sizes": [
+      "Free Size"
+    ],
+    "image": "/images/products/p58.jpg",
+    "description": "Matte black wayfarer-style shades — the pair that goes with literally everything.",
+    "details": [
+      "UV400 protection",
+      "Matte acetate frame",
+      "Polarized option",
+      "Hard case"
+    ],
+    "badge": "Bestseller"
+  },
+  {
+    "id": 59,
+    "name": "Stone Statement Rings",
+    "category": "Accessories",
+    "price": 749,
+    "mrp": 1199,
+    "rating": 4.6,
+    "reviews": 67,
+    "colors": [
+      "#D4AF37",
+      "#2E8B57",
+      "#CD5C5C"
+    ],
+    "sizes": [
+      "Free Size"
+    ],
+    "image": "/images/products/p59.jpg",
+    "description": "Set of stone-studded rings in mixed tones — stack them for a curated hand party.",
+    "details": [
+      "Set of 3",
+      "Adjustable bands",
+      "Mixed stones",
+      "Nickel-free"
+    ]
+  },
+  {
+    "id": 60,
+    "name": "Washed Cotton Cap",
+    "category": "Accessories",
+    "price": 599,
+    "mrp": 899,
+    "rating": 4.4,
+    "reviews": 54,
+    "colors": [
+      "#6B7280",
+      "#1F2937"
+    ],
+    "sizes": [
+      "Free Size"
+    ],
+    "image": "/images/products/p60.jpg",
+    "description": "Washed cotton baseball cap with a relaxed fit — bad hair days, handled.",
+    "details": [
+      "100% cotton",
+      "Adjustable strap",
+      "Curved brim",
+      "Embroidered logo"
+    ]
+  },
+  {
+    "id": 61,
+    "name": "White Trucker Cap",
+    "category": "Accessories",
+    "price": 649,
+    "mrp": 999,
+    "rating": 4.5,
+    "reviews": 71,
+    "colors": [
+      "#FFFFFF",
+      "#E5E7EB"
+    ],
+    "sizes": [
+      "Free Size"
+    ],
+    "image": "/images/products/p61.jpg",
+    "description": "Classic white trucker cap with mesh back — breathable, adjustable, effortlessly cool.",
+    "details": [
+      "Foam front panel",
+      "Mesh back",
+      "Snap closure",
+      "Curved visor"
+    ]
+  },
+  {
+    "id": 62,
+    "name": "Logo Baseball Cap",
+    "category": "Accessories",
+    "price": 699,
+    "mrp": 1099,
+    "rating": 4.6,
+    "reviews": 83,
+    "colors": [
+      "#9CA3AF",
+      "#1F2937"
+    ],
+    "sizes": [
+      "Free Size"
+    ],
+    "image": "/images/products/p62.jpg",
+    "description": "Grey logo baseball cap with a clean patch design — finish any casual look in seconds.",
+    "details": [
+      "Structured crown",
+      "Embroidered patch",
+      "Adjustable buckle",
+      "Cotton blend"
+    ]
+  },
+  {
+    "id": 63,
+    "name": "Blush Pink Lounge Set",
+    "category": "Co-ord Sets",
+    "price": 1899,
+    "mrp": 2799,
+    "rating": 4.8,
+    "reviews": 124,
+    "colors": [
+      "#F5C6C6",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "image": "/images/products/p63.jpg",
+    "description": "Soft blush pink sweatshirt-and-pant co-ord — weekend comfort that still looks put-together.",
+    "details": [
+      "Brushed fleece interior",
+      "Elastic waist",
+      "Ribbed cuffs",
+      "Matching set"
+    ],
+    "badge": "New"
+  },
+  {
+    "id": 64,
+    "name": "Lavender Sweatshirt Set",
+    "category": "Co-ord Sets",
+    "price": 1799,
+    "mrp": 2599,
+    "rating": 4.7,
+    "reviews": 98,
+    "colors": [
+      "#D8B4E2",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "image": "/images/products/p64.jpg",
+    "description": "Lavender sweatshirt co-ord with a relaxed silhouette — soft hues, softer fabric.",
+    "details": [
+      "French terry cotton",
+      "Drawstring waist",
+      "Side pockets",
+      "Pre-shrunk"
+    ],
+    "badge": "Trending"
+  },
+  {
+    "id": 65,
+    "name": "Cream City Co-ord",
+    "category": "Co-ord Sets",
+    "price": 2099,
+    "mrp": 2999,
+    "rating": 4.6,
+    "reviews": 76,
+    "colors": [
+      "#F5F0E8",
+      "#E8E0D0"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "image": "/images/products/p65.jpg",
+    "description": "Cream ribbed co-ord set with a sporty-chic vibe — city walks to café hops.",
+    "details": [
+      "Ribbed knit fabric",
+      "Zip-up top",
+      "Tapered pants",
+      "Four-way stretch"
+    ]
+  },
+  {
+    "id": 66,
+    "name": "Rose Pink Co-ord Set",
+    "category": "Co-ord Sets",
+    "price": 1999,
+    "mrp": 2899,
+    "rating": 4.7,
+    "reviews": 109,
+    "colors": [
+      "#F8C8D4",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "image": "/images/products/p66.jpg",
+    "description": "Rose pink co-ord with a relaxed hoodie and matching pants — cute meets cosy.",
+    "details": [
+      "Heavyweight fleece",
+      "Kangaroo pocket",
+      "Elastic cuffs",
+      "Matching hoodie + pants"
+    ]
+  },
+  {
+    "id": 67,
+    "name": "Mint Lounge Co-ord",
+    "category": "Co-ord Sets",
+    "price": 1699,
+    "mrp": 2499,
+    "rating": 4.5,
+    "reviews": 64,
+    "colors": [
+      "#B8E0D2",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "image": "/images/products/p67.jpg",
+    "description": "Mint green lounge co-ord — fresh colour, cloud-soft feel for slow Sundays.",
+    "details": [
+      "Modal-cotton blend",
+      "Relaxed fit",
+      "Pull-on waist",
+      "Machine washable"
+    ]
+  },
+  {
+    "id": 68,
+    "name": "Crimson Bridal Lehenga",
+    "category": "Ethnic",
+    "price": 4999,
+    "mrp": 7999,
+    "rating": 4.9,
+    "reviews": 187,
+    "colors": [
+      "#B91C1C",
+      "#D4AF37"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "image": "/images/products/p68.jpg",
+    "description": "Crimson bridal lehenga with rich gold zari work — made for the big celebration.",
+    "details": [
+      "Hand-embroidered zari",
+      "Flared lehenga skirt",
+      "Matching dupatta",
+      "Silk blend fabric"
+    ],
+    "badge": "Festive"
+  },
+  {
+    "id": 69,
+    "name": "Royal Purple Silk Saree",
+    "category": "Ethnic",
+    "price": 2499,
+    "mrp": 3799,
+    "rating": 4.8,
+    "reviews": 264,
+    "colors": [
+      "#5B2C6F",
+      "#D4AF37"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "image": "/images/products/p69.jpg",
+    "description": "Royal purple silk saree with gold border draping — festive elegance, zero effort.",
+    "details": [
+      "Art silk weave",
+      "Gold zari border",
+      "6.3m with blouse piece",
+      "Anti-crease"
+    ],
+    "badge": "Bestseller"
+  },
+  {
+    "id": 70,
+    "name": "Marigold Temple Saree",
+    "category": "Ethnic",
+    "price": 2799,
+    "mrp": 4199,
+    "rating": 4.7,
+    "reviews": 142,
+    "colors": [
+      "#E67E22",
+      "#F1C40F"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "image": "/images/products/p70.jpg",
+    "description": "Marigold temple-border saree in classic South Indian style — bright, bold, beautiful.",
+    "details": [
+      "Kanchipuram-style weave",
+      "Temple border",
+      "Rich fall & pleat",
+      "With blouse piece"
+    ]
+  },
+  {
+    "id": 71,
+    "name": "Ruby Red Silk Saree",
+    "category": "Ethnic",
+    "price": 2299,
+    "mrp": 3499,
+    "rating": 4.6,
+    "reviews": 118,
+    "colors": [
+      "#C0392B",
+      "#D4AF37"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "image": "/images/products/p71.jpg",
+    "description": "Ruby red silk saree with golden accents — the classic for every wedding season.",
+    "details": [
+      "Soft silk blend",
+      "Gold detailing",
+      "Pre-stitched option available",
+      "With blouse piece"
+    ]
+  },
+  {
+    "id": 72,
+    "name": "Blush Lehenga Set",
+    "category": "Ethnic",
+    "price": 3999,
+    "mrp": 5999,
+    "rating": 4.8,
+    "reviews": 156,
+    "colors": [
+      "#F5C6C6",
+      "#D4AF37"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "image": "/images/products/p72.jpg",
+    "description": "Blush pink lehenga set with delicate embroidery — soft glamour for sangeet and mehendi.",
+    "details": [
+      "Embroidered lehenga",
+      "Sweetheart blouse",
+      "Sheer dupatta",
+      "Comfortable lining"
+    ],
+    "badge": "Trending"
+  },
+  {
+    "id": 73,
+    "name": "Royal Blue Banarasi Saree",
+    "category": "Ethnic",
+    "price": 3299,
+    "mrp": 4999,
+    "rating": 4.9,
+    "reviews": 201,
+    "colors": [
+      "#1A5276",
+      "#D4AF37"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "image": "/images/products/p73.jpg",
+    "description": "Royal blue Banarasi-style saree with intricate gold brocade — heirloom energy.",
+    "details": [
+      "Banarasi weave",
+      "Brocade pallu",
+      "Rich texture",
+      "With blouse piece"
+    ]
+  },
+  {
+    "id": 74,
+    "name": "Emerald Bridal Lehenga",
+    "category": "Ethnic",
+    "price": 5499,
+    "mrp": 8499,
+    "rating": 4.9,
+    "reviews": 174,
+    "colors": [
+      "#1E8449",
+      "#D4AF37"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "image": "/images/products/p74.jpg",
+    "description": "Emerald green bridal lehenga with heavy gold work — a showstopper for the reception.",
+    "details": [
+      "Heavy zardozi work",
+      "Flared silhouette",
+      "Matching dupatta",
+      "Can-can included"
+    ]
+  },
+  {
+    "id": 75,
+    "name": "Ruby Kurta Palazzo Set",
+    "category": "Ethnic",
+    "price": 1799,
+    "mrp": 2699,
+    "rating": 4.7,
+    "reviews": 298,
+    "colors": [
+      "#B91C1C",
+      "#ECF0F1"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "image": "/images/products/p75.jpg",
+    "description": "Ruby red printed kurta with palazzo set — festive comfort that moves with you.",
+    "details": [
+      "Printed cotton kurta",
+      "Palazzo pants",
+      "Matching dupatta",
+      "Breathable fabric"
+    ],
+    "badge": "Bestseller"
+  },
+  {
+    "id": 76,
+    "name": "Teal Floral Kurti Set",
+    "category": "Ethnic",
+    "price": 1599,
+    "mrp": 2399,
+    "rating": 4.6,
+    "reviews": 132,
+    "colors": [
+      "#0E7C7B",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "image": "/images/products/p76.jpg",
+    "description": "Teal floral kurti set with printed pants — garden-party ready in one step.",
+    "details": [
+      "Floral print kurti",
+      "Straight pants",
+      "Side slits",
+      "Cotton blend"
+    ]
+  },
+  {
+    "id": 77,
+    "name": "Coral Printed Kurti Set",
+    "category": "Ethnic",
+    "price": 1699,
+    "mrp": 2599,
+    "rating": 4.7,
+    "reviews": 167,
+    "colors": [
+      "#E74C3C",
+      "#F5B7B1"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "image": "/images/products/p77.jpg",
+    "description": "Coral printed kurti with matching bottom — cheerful prints for day-to-night ethnic days.",
+    "details": [
+      "All-over print",
+      "Three-quarter sleeves",
+      "Matching set",
+      "Machine washable"
+    ]
+  },
+  {
+    "id": 78,
+    "name": "Rust Orange Knit Sweater",
+    "category": "Winter Wear",
+    "price": 1499,
+    "mrp": 2199,
+    "rating": 4.8,
+    "reviews": 176,
+    "colors": [
+      "#E67E22",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "image": "/images/products/p78.jpg",
+    "description": "Rust orange knit sweater with a relaxed fit — warm enough for chills, cute enough for photos.",
+    "details": [
+      "Soft knit yarn",
+      "Ribbed hem",
+      "Relaxed drop shoulder",
+      "Machine washable"
+    ],
+    "badge": "Trending"
+  },
+  {
+    "id": 79,
+    "name": "Classic Denim Jacket",
+    "category": "Winter Wear",
+    "price": 1999,
+    "mrp": 2999,
+    "rating": 4.9,
+    "reviews": 287,
+    "colors": [
+      "#4A6FA5",
+      "#1F2937"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "image": "/images/products/p79.jpg",
+    "description": "Classic denim jacket that layers over everything — the forever piece in your wardrobe.",
+    "details": [
+      "100% cotton denim",
+      "Button front",
+      "Chest & side pockets",
+      "Stone washed"
+    ],
+    "badge": "Bestseller"
+  },
+  {
+    "id": 80,
+    "name": "Burgundy Wool Blend Coat",
+    "category": "Winter Wear",
+    "price": 2799,
+    "mrp": 4199,
+    "rating": 4.8,
+    "reviews": 143,
+    "colors": [
+      "#7B2D26",
+      "#1A1A1A"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "image": "/images/products/p80.jpg",
+    "description": "Burgundy wool-blend coat with a tailored silhouette — polished warmth for winter outings.",
+    "details": [
+      "Wool blend fabric",
+      "Notched lapel",
+      "Interior lining",
+      "Side pockets"
+    ]
+  }
+]
