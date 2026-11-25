@@ -79,9 +79,19 @@ function initNavbar() {
   const mobile = $('#mobileMenu');
   const close = $('#mmClose');
 
-  burger?.addEventListener('click', () => mobile.classList.add('open'));
-  close?.addEventListener('click', () => mobile.classList.remove('open'));
-  $$('#mobileMenu a').forEach(a => a.addEventListener('click', () => mobile.classList.remove('open')));
+  burger?.addEventListener('click', () => {
+    mobile.classList.add('open');
+    document.body.classList.add('menu-open');
+  });
+  const closeMenu = () => {
+    mobile.classList.remove('open');
+    document.body.classList.remove('menu-open');
+  };
+  close?.addEventListener('click', closeMenu);
+  $$('#mobileMenu a').forEach(a => a.addEventListener('click', closeMenu));
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape') closeMenu();
+  });
 
   // mark active nav link
   const page = location.pathname.split('/').pop() || 'index.html';
